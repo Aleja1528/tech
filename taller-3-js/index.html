@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taller 3</title>
+    <link rel="stylesheet" href="taller3.css">
+    
+</head>
+<body>
+        <h1 class="titulo">FORMULARIO DE USUARIO</h1>
+    <div class="formulario">
+    <header>
+        <div class="container">
+            <form> 
+        <label for="nombre"> nombre:</label><br></br>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre" required><br></br>
+
+        <label for="apellido "> apellido:</label><br></br>
+        <input type="text" id="apellido" placeholder="Escribe tu apellido" required><br></br>
+
+        <label for="email">correo electronico:</label><br></br>
+        <input type="text" id="email" placeholder="Escribe tu email" required ><br></br>
+
+        <label for="celular">celular:</label><br></br>
+        <input type="text" id="celular" placeholder="Escribe tu celular" required><br></br>
+
+        <label for="edad">edad:</label><br></br>
+        <input type="text" id="edad" placeholder="Escribe tu edad" required><br></br>
+
+        <label for="genero">genero:</label>
+        <select id="genero">
+            <option value="F">F</option>
+            <option value="M">M</option>
+        </select>
+    
+    </header><br></br>
+
+        <input type="button" onclick="capturarDatos()" value="Enviar">
+    </form>
+    </div>
+
+</div>
+    <div id="output"></div>
+    <script type="text/javascript" src="taller3.js"></script>
+</body>
+</html>
+

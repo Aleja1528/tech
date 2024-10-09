@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(199, 173, 230); 
+    height: 130vh;
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    width: 70%;
+}
+
+
+h1.titulo {
+    text-align: center;
+    color: #23c2ad;
+}
+
+.formulario {
+    background-color: #80cee5;
+    padding: 120px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+
+}
+
+
+button {
+    padding: 30px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #101110;
+    cursor: pointer;
+}
+

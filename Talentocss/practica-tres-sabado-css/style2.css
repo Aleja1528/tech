@@ -1,0 +1,46 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(199, 173, 230); 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.seccion {
+    flex: 1; 
+    width: 30%;
+    margin: 10px; 
+    padding: 40px; 
+    background-color: rgb(34, 143, 68); 
+    text-align: center; 
+}
+
+.seccion small {
+    flex: 1; }
+
+.seccion large {
+    flex: 25;
+}
+
+.container{
+    width: 800px;
+    columns: 3 300px;
+    
+}
+
+.container-parrafo{
+    display: flex;
+    flex-direction: row;
+    flex: 1; 
+    width: 70%;
+    margin: 40px; 
+    padding: 40px; 
+    background-color: rgb(152, 182, 43); 
+    text-align: center;
+    }
+
+
+
+

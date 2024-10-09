@@ -1,0 +1,19 @@
+.element {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 67, 130);
+    color: rgb(118, 129, 15);
+    }
+
+.container {
+    display: inline-flex;
+    width: 200px;
+    background: steelblue;
+    display: inline-flex;
+    gap: 4px 8px;
+    }
+
+.item {
+    width: 150px;
+    background: greenyellow;
+}

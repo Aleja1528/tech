@@ -1,0 +1,31 @@
+
+/*
+
+*/
+.container¨{ 
+    color: blueviolet;
+    font-family:"comics san"
+    
+}
+
+.container.bloque-1.Talento{
+
+    color: brown;
+    background-color: beige;
+    font-size: small;
+    text-align: justify;
+}
+
+.container.bloque-2.Talento{
+    color: blue;
+    border-color: aquamarine;
+    font-size: medium;
+    text-align: center;
+    }
+
+.container.bloque-3.Talento{
+    color: chartreuse;
+    border-color: chocolate;
+    font-size: large;
+    text-align: right;
+}
